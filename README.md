@@ -1,7 +1,6 @@
 # Dr.Diagno
 #### Dr.Diagno is an Artificial Intelligence based app which predicts the diseases or other health conditions based on the provided symptoms.
 
-##### [Pesentartion about this app (Link to the PPT).](https://docs.google.com/presentation/d/1stXATFaBDL85zV4q5UVasmyiyTkJOv-LszQV9CKdIP8/edit?usp=sharing)
 ##### [Live demo app! (link)](https://dr-diagno.vercel.app/)
 ##### [Demo video! (link)](https://www.youtube.com/watch?v=sPlcFLZ2Hq8)
 ---

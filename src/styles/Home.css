@@ -1,0 +1,90 @@
+.home {
+    min-height: 100vh;
+    max-width: 100vw;
+    overflow: hidden;
+    background-color: var(--background);
+    background-image: url('../assets/imgs/bg.svg');
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+    background-position: bottom;
+}
+.home__top {
+    width: 100vw;
+    height: 40vh;
+    padding: 40px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    color: white;
+}
+
+.home__userInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home__userInfo h1 {
+    margin-left: 10px;
+}
+.home__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+.home__button {
+    background-color: white !important;
+    color: var(--main-green) !important;
+}
+
+.home__buttonOut {
+    color: white !important;
+    border: 1px solid white !important;
+}
+.home__bottom {
+    margin-top: 20px;
+    min-height: 50vh;
+    width: 100vw;
+    padding: 20px;
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.home__bottom h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.home__pastDiagnosis {
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content; */
+}
+.home__prediction {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media (max-width: 420px) {
+    .home__buttons {
+        width: fit-content;
+        flex-direction: column;
+        height: 40%;
+    }
+    .home__top {
+        height: 20vh;
+    }
+    .home {
+        background-size: unset;
+        background-repeat: no-repeat;
+        background-position: unset;
+    }
+    .home__bottom {
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+}

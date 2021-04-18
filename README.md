@@ -22,7 +22,7 @@
 ---
 ## How to run this app:
 Clone this repository
-### `git clone https://github.com/GanapathyPT/Dr.Diagno_Frontend.git`
+### `git clone https://github.com/Vasanthengineer4949/DrDiagno_FrontEnd.git`
 
 change the directory
 ### `cd Dr.Diagno_Frontend`

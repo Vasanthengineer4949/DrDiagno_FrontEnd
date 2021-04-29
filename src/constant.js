@@ -5,656 +5,788 @@ export const symptomsList = [
     {
         name: 'abdominal_pain',
         lable: 'Abdominal pain',
+        areas:[Abdomen]
         value: 0
     },
     {
         name: 'abnormal_menstruation',
         lable: 'Abnormal menstruation',
+        areas:[Others]
         value: 0
     },
     {
         name: 'acidity',
         lable: 'Acidity',
+        areas:[Stomach]
         value: 0
     },
     {
         name: 'acute_liver_failure',
         lable: 'acute liver failure',
+        areas:[Abdomen]
         value: 0
     },
     {
         name: 'altered_sensorium',
         lable: "Altered sensorium",
+        areas:[Head(mental)]
         value: 0
     },
     {
         name: 'anxiety',
         lable: "Anxiety",
+        areas:[Head(mental)]
         value: 0
     },
     {
         name: 'back_pain',
         lable: "Back pain",
+        areas:[Back]
         value: 0
     },
     {
         name: 'belly_pain',
         lable: "Belly pain",
+        areas:[Abdomen,Stomach]
         value: 0
     },
     {
         name: 'blackheads',
         lable: "Blackheads",
+        areas:[Face]
         value: 0
     },
     {
         name: 'bladder_discomfort',
         lable: "bladder discomfort",
+        areas:[Abdomen]
         value: 0
     },
     {
         name: 'blister',
         lable: "blister",
+        areas:[Face,Hands,Legs,Body]
         value: 0
     },
     {
         name: 'blood_in_sputum',
         lable: "blood in sputum",
+        areas:[Others]
         value: 0
     },
     {
         name: 'bloody_stool',
         lable: "bloody stool",
+        areas:[Others]
         value: 0
     },
     {
         name: 'blurred_and_distorted_vision',
         lable: "blurred and distorted vision",
+        areas:[Head(mental),Eyes]
         value: 0
     },
     {
         name: 'breathlessness',
         lable: "breathlessness",
+        areas:[Body,Nose]
         value: 0
     },
     {
         name: 'brittle_nails',
         lable: "brittle nails",
+        areas:[Nails]
         value: 0
     },
     {
         name: 'bruising',
         lable: "bruising",
+        areas:[Hands,Legs,Body]
         value: 0
     },
     {
         name: 'burning_micturition',
         lable: "burning micturition",
+        areas:[Others]
         value: 0
     },
     {
         name: 'chest_pain',
         lable: "chest pain",
+        areas:[Chest]
         value: 0
     },
     {
         name: 'chills',
         lable: "chills",
+        areas:[Body,Hands,Legs,Back]
         value: 0
     },
     {
         name: 'cold_hands_and_feets',
         lable: "cold hands and feets",
+        areas:[Hands,Legs]
         value: 0
     },
     {
         name: 'coma',
         lable: "coma",
+        areas:[Head(mental)]
         value: 0
     },
     {
         name: 'congestion',
         lable: "congestion",
+        areas:[Body]
         value: 0
     },
     {
         name: 'constipation',
         lable: "constipation",
+        areas:[Others]
         value: 0
     },
     {
         name: 'continuous_feel_of_urine',
         lable: "continuous feel of urine",
+        areas:[Others]
         value: 0
     },
     {
         name: 'continuous_sneezing',
         lable: "continuous sneezing",
+        areas:[Nose]
         value: 0
     },
     {
         name: 'cough',
         lable: "cough",
+        areas:[Chest]
         value: 0
     },
     {
         name: 'cramps',
         lable: "cramps",
+        areas:[Hands,Legs,Body]
         value: 0
     },
     {
         name: 'dark_urine',
         lable: "dark urine",
+        areas:[Others]
         value: 0
     },
     {
         name: 'dehydration',
         lable: "dehydration",
+        areas:[Body]
         value: 0
     },
     {
         name: 'depression',
         lable: "depression",
+        areas:[Head(mental)]
         value: 0
     },
     {
         name: 'diarrhoea',
         lable: "diarrhoea",
+        areas:[Others]
         value: 0
     },
     {
         name: 'dischromic_patches',
         lable: "dischromic patches",
+        areas:[Body]
         value: 0
     },
     {
         name: 'distention_of_abdomen',
         lable: "distention of abdomen",
+        areas:[Abdomen]
         value: 0
     },
     {
         name: 'dizziness',
         lable: "dizziness",
+        areas:[Head(mental)]
         value: 0
     },
     {
         name: 'drying_and_tingling_lips',
         lable: "drying and tingling lips",
+        areas:[face]
         value: 0
     },
     {
         name: 'enlarged_thyroid',
         lable: "enlarged thyroid",
+        areas:[Throat]
         value: 0
     },
     {
         name: 'excessive_hunger',
         lable: "excessive hunger",
+        areas:[Stomach,Abdomen]
         value: 0
     },
     {
         name: 'extra_marital_contacts',
         lable: "extra marital contacts",
+        areas:[Others]
         value: 0
     },
     {
         name: 'family_history',
         lable: "family history",
+        areas:[Others]
         value: 0
     },
     {
         name: 'fast_heart_rate',
         lable: "fast heart rate",
+        areas:[Body,Chest]
         value: 0
     },
     {
         name: 'fatigue',
         lable: "fatigue",
+        areas:[Body]
         value: 0
     },
     {
         name: 'fluid_overload',
         lable: "fluid overload",
+        areas:[Others]
         value: 0
     },
     {
         name: 'foul_smell_of_urine',
         lable: "foul smell of urine",
+        areas:[Others]
         value: 0
     },
     {
         name: 'headache',
         lable: "headache",
+        areas:[Head(mental)]
         value: 0
     },
     {
         name: 'high_fever',
         lable: "high fever",
+        areas:[Body]
         value: 0
     },
     {
         name: 'hip_joint_pain',
         lable: "hip joint pain",
+        areas:[others,Joints,Knee]
         value: 0
     },
     {
         name: 'history_of_alcohol_consumption',
         lable: "history of alcohol consumption",
+        areas:[Others]
         value: 0
     },
     {
         name: 'increased_appetite',
         lable: "increased appetite",
+        areas:[Abdomen,Stomach]
         value: 0
     },
     {
         name: 'indigestion',
         lable: "indigestion",
+        areas:[Abdomen,Stomach]
         value: 0
     },
     {
         name: 'inflammatory_nails',
         lable: "inflammatory nails",
+        areas:[Nails]
         value: 0
     },
     {
         name: 'internal_itching',
         lable: "internal itching",
+        areas:[Body]
         value: 0
     },
     {
         name: 'irregular_sugar_level',
         lable: "irregular sugar level",
+        areas:[Body]
         value: 0
     },
     {
         name: 'irritability',
         lable: "irritability",
+        areas:[Head(mental),Body]
         value: 0
     },
     {
         name: 'irritation_in_anus',
         lable: "irritation in anus",
+        areas:[Others]
         value: 0
     },
     {
         name: 'joint_pain',
         lable: "joint pain",
+        areas:[Joints,knee]
         value: 0
     },
     {
         name: 'knee_pain',
         lable: "knee pain",
+        areas:[Knee]
         value: 0
     },
     {
         name: 'lack_of_concentration',
         lable: "lack of oncentration",
+        areas:[Head(mental)]
         value: 0
     },
     {
         name: 'lethargy',
         lable: "lethargy",
+        areas:[Body]
         value: 0
     },
     {
         name: 'loss_of_appetite',
         lable: "loss of appetite",
+        areas:[Abdomen,Stomach]
         value: 0
     },
     {
         name: 'loss_of_balance',
         lable: "loss of balance",
+        areas:[Body,Head(mental),Others]
         value: 0
     },
     {
         name: 'loss_of_smell',
         lable: "loss of smell",
+        areas:[Nose]
         value: 0
     },
     {
         name: 'malaise',
         lable: "malaise",
+        areas:[Body]
         value: 0
     },
     {
         name: 'mild_fever',
         lable: "mild fever",
+        areas:[Body]
         value: 0
     },
     {
         name: 'mood_swings',
         lable: "mood swings",
+        areas:[Head(mental)]
         value: 0
     },
     {
         name: 'movement_stiffness',
         lable: "movement stiffness",
+        areas:[Body,Joints]
         value: 0
     },
     {
         name: 'mucoid_sputum',
         lable: "mucoid sputum",
+        areas:[Others]
         value: 0
     },
     {
         name: 'muscle_pain',
         lable: "muscle pain",
+        areas:[Body,Muscles]
         value: 0
     },
     {
         name: 'muscle_wasting',
         lable: "muscle wasting",
+        areas:[Muscles]
         value: 0
     },
     {
         name: 'muscle_weakness',
         lable: "muscle weakness",
+        areas:[Muscles]
         value: 0
     },
     {
         name: 'nausea',
         lable: "nausea",
+        areas:[Abdomen,Stomach]
         value: 0
     },
     {
         name: 'neck_pain',
         lable: "neck pain",
+        areas:[Neck]
         value: 0
     },
     {
         name: 'nodal_skin_eruptions',
         lable: "nodal skin eruptions",
+        areas:[Body,Stomach,Abdomen]
         value: 0
     },
     {
         name: 'obesity',
         lable: "obesity",
+        areas:[Body,Stomach]
         value: 0
     },
     {
         name: 'pain_behind_the_eyes',
         lable: "pain behind the eyes",
+        areas:[Head(mental),Eyes]
         value: 0
     },
     {
         name: 'pain_during_bowel_movements',
         lable: "pain during bowel movements",
+        areas:[Abdomen,Others]
         value: 0
     },
     {
         name: 'pain_in_anal_region',
         lable: "pain in anal region",
+        areas:[Others]
         value: 0
     },
     {
         name: 'painful_walking',
         lable: "painful walking",
+        areas:[Knee,Joints,Body]
         value: 0
     },
     {
         name: 'palpitations',
         lable: "palpitations",
+        areas:[Chest,Throat,Neck,body]
         value: 0
     },
     {
         name: 'passage_of_gases',
         lable: "passage of gases",
+        areas:[Others,Abdomen]
         value: 0
     },
     {
         name: 'patches_in_throat',
         lable: "patches in throat",
+        areas:[Throat]
         value: 0
     },
     {
         name: 'phlegm',
         lable: "phlegm",
+        areas:[Nose,Throat]
         value: 0
     },
     {
         name: 'polyuria',
         lable: "polyuria",
+        areas:[others]
         value: 0
     },
     {
         name: 'prominent_veins_on_calf',
         lable: "prominent veins on calf",
+        areas:[Legs]
         value: 0
     },
     {
         name: 'puffy_face_and_eyes',
         lable: "puffy face and eyes",
+        areas:[Face,Eyes]
         value: 0
     },
     {
         name: 'pus_filled_pimples',
         lable: "pus filled pimples",
+        areas:[Face]
         value: 0
     },
     {
         name: 'receiving_blood_transfusion',
         lable: "receiving blood transfusion",
+        areas:[Others,Body]
         value: 0
     },
     {
         name: 'receiving_unsterile_injections',
         lable: "receiving unsterile injections",
+        areas:[Others,Body]
         value: 0
     },
     {
         name: 'red_sore_around_nose',
         lable: "red sore around nose",
+        areas:[Face,Nose]
         value: 0
     },
     {
         name: 'red_spots_over_body',
         lable: "red spots over body",
+        areas:[Body]
         value: 0
     },
     {
         name: 'redness_of_eyes',
         lable: "redness of eyes",
+        areas:[Face,Eyes]
         value: 0
     },
     {
         name: 'restlessness',
         lable: "restlessness",
+        areas:[Body,Head(mental)]
         value: 0
     },
     {
         name: 'runny_nose',
         lable: "runny nose",
+        areas:[Nose]
         value: 0
     },
     {
         name: 'rusty_sputum',
         lable: "rusty sputum",
+        areas:[Nose]
         value: 0
     },
     {
         name: 'scurring',
         lable: "scurring",
+        areas:[Others]
         value: 0
     },
     {
         name: 'shivering',
         lable: "shivering",
+        areas:[Body,Muscles]
         value: 0
     },
     {
         name: 'silver_like_dusting',
         lable: "silver like dusting",
+        areas:[Others,Skin]
         value: 0
     },
     {
         name: 'sinus_pressure',
         lable: "sinus pressure",
+        areas:[Face,Nose]
         value: 0
     },
     {
         name: 'skin_peeling',
         lable: "skin peeling",
+        areas:[Skin,Body]
         value: 0
     },
     {
         name: 'skin_rash',
         lable: "skin rash",
+        areas:[Skin,Body]
         value: 0
     },
     {
         name: 'slurred_speech',
         lable: "slurred speech",
+        areas:[Head(mental),Face]
         value: 0
     },
     {
         name: 'small_dents_in_nails',
         lable: "small dents in nails",
+        areas:[Nails]
         value: 0
     },
     {
         name: 'spinning_movements',
         lable: "spinning movements",
+        areas:[Body,Head(mental)]
         value: 0
     },
     {
         name: 'spotting_urination',
         lable: "spotting urination",
+        areas:[Others]
         value: 0
     },
     {
         name: 'stiff_neck',
         lable: "stiff neck",
+        areas:[Neck]
         value: 0
     },
     {
         name: 'stomach_bleeding',
         lable: "stomach bleeding",
+        areas:[Abdomen,Stomach]
         value: 0
     },
     {
         name: 'stomach_pain',
         lable: "stomach pain",
+        areas:[Stomach]
         value: 0
     },
     {
         name: 'sunken_eyes',
         lable: "sunken eyes",
+        areas:[Face,Eyes]
         value: 0
     },
     {
         name: 'sweating',
         lable: "sweating",
+        areas:[Body]
         value: 0
     },
     {
         name: 'swelled_lymph_nodes',
         lable: "swelled lymph nodes",
+        areas:[Body,Others]
         value: 0
     },
     {
         name: 'swelling_joints',
         lable: "swelling joints",
+        areas:[Joints]
         value: 0
     },
     {
         name: 'swelling_of_stomach',
         lable: "swelling of stomach",
+        areas:[Stomach]
         value: 0
     },
     {
         name: 'swollen_blood_vessels',
         lable: "swollen blood vessels",
+        areas:[Body]
         value: 0
     },
     {
         name: 'swollen_extremeties',
         lable: "swollen extremeties",
+        areas:[Body,Others]
         value: 0
     },
     {
         name: 'swollen_legs',
         lable: "swollen legs",
+        areas:[Legs]
         value: 0
     },
     {
         name: 'throat_irritation',
         lable: "throat irritation",
+        areas:[Throat]
         value: 0
     },
     {
         name: 'toxic_look_(typhos)',
         lable: "toxic look (typhos)",
+        areas:[Face]
         value: 0
     },
     {
         name: 'ulcers_on_tongue',
         lable: "ulcers on tongue",
+        areas:[Face]
         value: 0
     },
     {
         name: 'unsteadiness',
         lable: "unsteadiness",
+        areas:[Body,Head(mental)]
         value: 0
     },
     {
         name: 'visual_disturbances',
         lable: "visual disturbances",
+        areas:[Head(mental),Eyes]
         value: 0
     },
     {
         name: 'vomiting',
         lable: "vomiting",
+        areas:[Body,Abdomen,Stomach]
         value: 0
+        
     },
     {
         name: 'watering_from_eyes',
         lable: "watering from eyes",
+        areas:[Face,Eyes]
         value: 0
     },
     {
         name: 'weakness_in_limbs',
         lable: "weakness in limbs",
+        areas:[Hands,Legs,Muscles]
         value: 0
     },
     {
         name: 'weakness_of_one_body_side',
         lable: "weakness of one body side",
+        areas:[Body,Muscles]
         value: 0
     },
     {
         name: 'weight_gain',
         lable: "weight gain",
+        areas:[Body]
         value: 0
     },
     {
         name: 'weight_loss',
         lable: "weight loss",
+        areas:[Body]
         value: 0
     },
     {
         name: 'yellow_crust_ooze',
         lable: "yellow crust ooze",
+        areas:[Skin,Body]
         value: 0
     },
     {
         name: 'yellow_urine',
         lable: "yellow urine",
+        areas:[Others]
         value: 0
     },
     {
         name: 'yellowing_of_eyes',
         lable: "yellowing of eyes",
+        areas:[Face]
         value: 0
     },
     {
         name: 'yellowish_skin',
         lable: "yellowish skin",
+        areas:[Skin]
         value: 0
     },
     {
         name: 'itching',
         lable: "itching",
+        areas:[Body,Skin]
         value: 0
     }
 ];
